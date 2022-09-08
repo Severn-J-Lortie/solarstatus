@@ -36,7 +36,7 @@ Below is a connection diagram showing the overall schematic of the system.
 
 ![Wiring diagram](/images/wiring.png?raw=true "Wiring diagram")
 
-A Node server on the Pi will is responsible for communicating with the controller (code for which is in the backend folder). The charge controller uses RS485, meaning we need the transceiver to communicate with it. As for the protocol, any Epever charge controller uses Modbus. To handle this, I wrote a custom modbus library which handles framing the requests as well as computing the CRC (cyclic redundancy check). 
+A Node server on the Pi is responsible for communicating with the controller (code for which is in the backend folder). The charge controller uses RS485, meaning we need the transceiver to communicate with it. As for the protocol, any Epever charge controller uses Modbus. To handle this, I wrote a custom modbus library which handles framing the requests as well as computing the CRC (cyclic redundancy check). 
 
 ## What hardware was used?
 
