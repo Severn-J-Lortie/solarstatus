@@ -2,12 +2,12 @@
 import {reactive} from 'vue';
 
 const liveStats = reactive({
-  batterySOC: 0,
-  solarPanelPower: 0,
-  currentChargeMode: 0,
-  batteryVoltage: 0,
-  temperature: 0,
-  loadPower: 0
+  batterySOC: 42,
+  solarPanelPower: 100,
+  currentChargeMode: 1,
+  batteryVoltage: 12.3,
+  temperature: 25,
+  loadPower: 10
 });
 
 export const useAPI = () => {
